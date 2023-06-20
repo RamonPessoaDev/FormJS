@@ -1,0 +1,87 @@
+@media (max-width: 1024px) {
+    .container .main .inputs .form-inputs {
+        margin-top: 30px; 
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        width: 900px;
+        height: 350px;
+    }
+
+    .container .main .escritas {
+        color: rgb(255, 255, 255);
+        padding-right: 100px;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .container .main .inputs .form-inputs {
+        margin-right: 146px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        width: 300px;
+    }
+
+    .container .main {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .container .main .escritas {
+        padding-top: 50px;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        margin-left: 70px;
+    }
+
+    .container .main .escritas .titulo {
+        margin-top: 50px; 
+        text-align: center;
+    }
+
+    .container .main .escritas .duvidas {
+        margin-top: 10px; 
+        width: 350px;
+        text-align: center;
+    }
+
+    .container .main .inputs {
+        padding-top: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 450px;
+    }
+
+    .container .main .inputs .form-inputs {
+        margin-top: 30px; 
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        width: 500px;
+        height: 350px;
+    }
+
+    .container .main .inputs .form-inputs .btn-enviar {
+        width: 200px;
+        height: 30px;
+        cursor: pointer;
+    }
+}

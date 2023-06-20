@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+   
+
+    <title>Intermediary JS Challenge</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <main class="main">
+            <div class="escritas">
+                <h1 class="titulo">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+
+                <p class="duvidas">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                    contato em menos de 24h.</p>
+            </div>
+            <div class="inputs">
+                <form class="form-inputs">
+                    <input class="borda espacamento item" type="text" id="nome" name="nome" placeholder="Nome completo *">
+                    <span class="escondido">campo obrigatório</span>
+
+                    <input class="borda espacamento item" type="email" id="email" name="email" placeholder="Email *">
+                    <span class="escondido">campo obrigatório</span>
+
+                    <input class="borda espacamento item" type="tel" id="telefone" name="telefone" placeholder="Telefone *">
+                    <span class="escondido">campo obrigatório</span>
+
+                    <input class="borda espacamento mensagem-espaco item" type="text" id="mensagem" name="mensagem"
+                        placeholder="Mensagem *">
+                    <span class="escondido">campo obrigatório</span>
+
+                    <p class="campos-obrigatorios">*campos obrigatórios</p>
+                    <button class="btn-enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
