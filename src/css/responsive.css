@@ -28,6 +28,20 @@
     
 }
 
+@media (min-width: 746px) {
+    .container .main .inputs .form-inputs {
+        margin-right: 0;
+    }
+
+    .container .main .escritas {
+        align-items: center;
+    }
+
+    .container .main .inputs {
+        padding-right: 70px;
+    }
+}
+
 @media (max-width: 768px) {
 
     html,
